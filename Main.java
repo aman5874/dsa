@@ -7,7 +7,5 @@ public class Main {
         int num = input.nextInt();
         int newNum = num+100;
         System.out.println("The new number is: " + newNum);
-        int num2 = newNum/10;
-        System.out.println("The new number is: " + num2);
     }
 }
