@@ -44,5 +44,6 @@ public class loops {
             System.out.println(n);
             n++;
         } while(n <= startnum +10);
+
     }
 }
