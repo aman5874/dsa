@@ -1,3 +1,4 @@
+import java.lang.reflect.Type;
 import java.util.Scanner;
 
 public class scalerassignment {
@@ -55,15 +56,123 @@ public class scalerassignment {
 //             System.out.println("Enter a valid age !!!");
 //         }
 
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the sides: ");
+//        int side1 = sc.nextInt();
+//        int side2 = sc.nextInt();
+//        int side3 = sc.nextInt();
+//        int sum = side1 + side2 + side3;
+//        if(sum == 180){
+//            System.out.println("1");
+//        } else{
+//            System.out.println("0");
+//        }
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        if (N > 0){
+//            if(N%2==0){
+//                System.out.println("Even-Positive");
+//            } else {
+//                System.out.println("Odd-Positive");
+//            }
+//        } else {
+//            if(N%2==0){
+//                System.out.println("Even-Negative");
+//            } else {
+//                System.out.println("Odd-Negative");
+//            }
+//        }
+
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        System.out.println(Math.max(a,b));
+
+//    Scanner sc = new Scanner(System.in);
+//    int age = sc.nextInt();
+//    if (age>=0 && age<=12){
+//      System.out.println("Child");
+//      } else if (age>=13 && age<=19){
+//        System.out.println("Teenager");
+//        } else if (age>=20 && age<=40){
+//        System.out.println("Young");
+//    }  else if (age>=41 && age<=60){
+//        System.out.println("Middle-Aged");
+//    } else if (age>=60){
+//        System.out.println("Senior-Citizen");
+//    }
+
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        int c = sc.nextInt();
+//
+//        if ( a== b && a==c ){
+//            System.out.println("equilateral");
+//        } else if ( a==b || a==c || b==c) {
+//            System.out.println("isosceles");
+//        } else {
+//            System.out.println("scalene");
+//        }
+
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        int gold = 5*(10^5);
+//        int platinum = 10^6;
+//        int diamond = 10^7;
+//        if ( n>=gold && n<platinum){
+//            System.out.println("gold");
+//        } else if (n>=platinum && n<diamond) {
+//            System.out.println("platinum");
+//        } else if (n>diamond) {
+//            System.out.println("diamond");
+//        } else {
+//            System.out.println("None");
+//        }
+
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        int c = sc.nextInt();
+//
+//        int g = Math.max(a, b);
+//        g = Math.max(g, c);
+//        System.out.println(g);
+
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//        int type = sc.nextInt();
+//        int b = sc.nextInt();
+//        if (type == 1) {
+//            System.out.println(a+b);
+//        } else if (type == 2 && a>b){
+//            System.out.println(a-b);
+//        } else if (b>a){
+//            System.out.println("Insufficient Funds");
+//        }
+
+
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the sides: ");
-        int side1 = sc.nextInt();
-        int side2 = sc.nextInt();
-        int side3 = sc.nextInt();
-        int sum = side1 + side2 + side3;
-        if(sum == 180){
-            System.out.println(sum);
+
+        int n = sc.nextInt();
+        int lastThreeDigit = n % 1000;
+
+        int digit1 = lastThreeDigit % 10;
+        int digit2 = (lastThreeDigit / 10) % 10;
+        int digit3 = lastThreeDigit / 100;
+
+        if(digit1 % 2 ==0 && digit2 % 2 ==0 && digit3 % 2 ==0) {
+             System.out.println("C1");
+        } else if(digit1 % 2 ==0 && digit2 % 2 ==0) {
+            System.out.println("C2");
         }
+
+
+
+
+
+
 
     }
 }
