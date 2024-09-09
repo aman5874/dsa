@@ -220,12 +220,17 @@ public class ifelse {
         Scanner scanner = new Scanner(System.in);
         int N= scanner.nextInt();
         int K = scanner.nextInt();
+
+
 //
 //        if (0 <= K && K < N) {
 //            System.out.println("true");
 //        } else {
 //            System.out.println("false");
 //        }
+
+
+
 
 
     }

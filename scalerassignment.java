@@ -287,10 +287,111 @@ public class scalerassignment {
 //        System.out.println("Sum of Even Digit : " + sum_y);
 
 
-        
+        /************************* MORE OPTIMISED CODE **************************/
+//        Scanner sc = new Scanner(System.in);
+//        int A = Math.abs(sc.nextInt());
+//        int B = Math.abs(sc.nextInt());
+//        int min_value = Math.min(A, B);
+//        for (int i = min_value; i >= 1; i--) {
+//            if (A % i == 0 && B % i == 0) {
+//                 common_value = i;
+////                System.out.println(i);
+//                break;
+//            }
+//        }
+
+        /************************* LESS OPTIMISED CODE **************************/
+//        Scanner sc = new Scanner(System.in);
+//        int A = Math.abs(sc.nextInt());
+//        int B = Math.abs(sc.nextInt());
+//        int min_value = Math.min(A, B);
+//        int common_value = 0;
+//        for (int i = 1; i <= min_value; i++) {
+//            if (A % i == 0 && B % i == 0) {
+//                common_value = i;
+//            }
+//        }
+//        System.out.println(common_value);
+
+
+//        Scanner input = new Scanner(System.in);
+//        int N = input.nextInt();
+//        int count = 0;
+//        while(N!=1){
+//            N/=2;
+//            count++;
+//        }
+//        System.out.println(count);
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        for (int i = 1; i <=N; i++) {
+//            int sum = 0;
+//            int temp = i;
+//            while (temp > 0) {
+//                int digit = temp % 10;
+//                sum += Math.pow(digit, 3);
+//                temp /= 10;
+//            }
+//            if (sum == i) {
+//                System.out.println(i);
+//            }
+//
+//        }
+
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//
+//        for (int i = 2; i <= N; i++) {
+//            if (isPrime(i)) {
+//                System.out.println(i);
+//            }
+//        }
+//    }
+//
+//    public static boolean isPrime(int num) {
+//        if (num <= 1) {
+//            return false;
+//        }
+//        for (int i = 2; i <= Math.sqrt(num); i++) {
+//            if (num % i == 0) {
+//                return false;
+//            }
+//        }
+//        return true;
+
+
+    /************************* FIND HCF **************************/
+//        Scanner HCF = new Scanner(System.in);
+//        int A = HCF.nextInt();
+//        int B = HCF.nextInt();
+//        int min_value = Math.min(A, B);
+//        int common_value = 0;
+//        for (int i = 1; i <= min_value; i++) {
+//            if (A % i == 0 && B % i == 0) {
+//                common_value = i;
+//            }
+//        }
+//        System.out.println(common_value);
+
+
+       /* ************************* FIND LCM **************************/
+//        Scanner LCM = new Scanner(System.in);
+//        int A = LCM.nextInt();
+//        int B = LCM.nextInt();
+//        int max_value = Math.max(A, B);
+//        int common_value = 0;
+//        for (int i = max_value; i <= A * B; i++) {
+//            if (i % A == 0 && i % B == 0) {
+//                common_value = i;
+//                break;
+//            }
+//        }
+//        System.out.println(common_value);
 
 
 
+}
 
-    }
 }
