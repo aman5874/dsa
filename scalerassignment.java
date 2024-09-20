@@ -362,7 +362,7 @@ public class scalerassignment {
 //        return true;
 
 
-    /************************* FIND HCF **************************/
+        /************************* FIND HCF **************************/
 //        Scanner HCF = new Scanner(System.in);
 //        int A = HCF.nextInt();
 //        int B = HCF.nextInt();
@@ -376,7 +376,7 @@ public class scalerassignment {
 //        System.out.println(common_value);
 
 
-       /* ************************* FIND LCM **************************/
+        /* ************************* FIND LCM **************************/
 //        Scanner LCM = new Scanner(System.in);
 //        int A = LCM.nextInt();
 //        int B = LCM.nextInt();
@@ -390,8 +390,99 @@ public class scalerassignment {
 //        }
 //        System.out.println(common_value);
 
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        int k = sc.nextInt();
+//
+//        for (int x = 1; x <= n + k; x+=k) {
+//            if (x%k == 0 && x > n) {
+//                System.out.println(x);
+//                break;
+//            }
+//        }
+
+        /* ************************* Print the first five letters of the English alphabet i.e. A, B, C, D and E. **************************/
+//        for (char ch = 'A'; ch <= 'E'; ch++) {
+//            System.out.println(ch);
+//        }
 
 
-}
+//        Scanner sc = new Scanner(System.in);
+//        int rows = sc.nextInt();
+//        for (int i = 0; i < rows; i++) {
+//            for (int j = rows; j > i; j--) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//    }
 
+       /* ************************* GIven a integer N you have to print the multiples of 4 till N **************************/
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        for (int i = 1; i <= N; i++) {
+//if (i % 4 == 0) {
+//    if (i != N) {
+//        System.out.print(i + " ");
+//    } else {
+//        System.out.print(i);
+//    }
+//}
+//        }
+
+
+//        Scanner sc = new Scanner(System.in);
+//        int X = sc.nextInt();
+//        int Y = sc.nextInt();
+//
+//        for (int i = 1; i <= 5; i++) {
+//            X += Y;
+//           System.out.println(X);
+//        }
+
+        /* ************************* Print the perfect squares till N **************************/
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        for (int i = 1; i * i <= N; i++) {
+//            System.out.print(i * i+" ");
+//        }
+
+        /* ************************* Print the updated bank balance if user enter integer N. and 1 for Addition and 2 for subtraction.**************************/
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        int testcase = sc.nextInt();
+//        int type = sc.nextInt();
+//        int amount = sc.nextInt();
+//        for (int i = 1; i <=testcase ; i++) {
+//            if (type == 1) {
+//                N += amount;
+//            } else if (type == 2) {
+//                N -= amount;
+//            }
+//            if () {
+//            }
+//        }
+
+           /* ************************* Check if number is Palindrom or not.**************************/
+//          Scanner sc = new Scanner(System.in);
+//            int N = sc.nextInt();
+//            int temp = N;
+//            int reverse = 0;
+//            while (N != 0) {
+//                int remainder = N % 10;
+//                reverse = reverse * 10 + remainder;
+//                N /= 10;
+//            }
+//            if (temp == reverse) {
+//                System.out.println("Yes");
+//            } else {
+//                System.out.println("No");
+//            }
+
+
+
+
+
+
+    }
 }
